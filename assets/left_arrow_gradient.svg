@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <rect width="50" height="50" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+    <image width="1" height="1" id="img_1" />
+  </defs>
+  <g id="left_arrow_gradient" clip-path="url(#clip_1)">
+    <use xlink:href="#artboard_1" stroke="none" fill="#FFFFFF" fill-opacity="0" />
+    <g artboard="6e73ebbe-ff2d-49f9-800e-f37f5a321ce2">
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="scale(50 50)" />
+    </g>
+  </g>
+</svg>
