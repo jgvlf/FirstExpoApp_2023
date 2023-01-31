@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image, TouchableOpacity, TextInput } from 'react-native';
+import { StyleSheet, View, TextInput } from 'react-native';
 
 export function Field({onChange, value}){
     return(
