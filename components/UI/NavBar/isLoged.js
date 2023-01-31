@@ -1,11 +1,13 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 
-export function IsLoged(){
+export function IsLoged({setIsLoged}){
     var LeftArrowGradientIcon = require("../../../assets/left_arrow_gradient.png");
     return(
         <View style={isLogedStyles.main}>
             <View>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={()=>{
+                    setIsLoged(false);
+                }}>
                     <Image source={LeftArrowGradientIcon} style={isLogedStyles.image}/>
                 </TouchableOpacity>
             </View>

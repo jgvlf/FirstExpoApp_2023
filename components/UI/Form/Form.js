@@ -2,20 +2,44 @@ import { View, StyleSheet } from "react-native";
 import { TextField } from "./TextField";
 import { Field } from "./Field";
 import { Button } from "./Button";
+import { useState } from "react";
 
-export function Form(){
+export function Form({setIsLoged}){
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
+
+    function handleUserChange(event){
+        setUsername(event.target.value);
+    }
+
+    function handlePasswordChange(event){
+        setPassword(event.target.value);
+    }
+
+    function performLogin(){
+        if(username=="JGVLF" && password==1234){
+            console.log("Logado com Sucesso");
+            setIsLoged(true)
+        }
+        else{
+            console.log("Usuário e senha invalido, por favor digite novamente");
+            setUsername("")
+            setPassword("")
+            setIsLoged(false)
+        }
+    }
     return(
         <View style={formStyle.main}>
             <View style={formStyle.main_field}>
                 <TextField>
                     Usuário:
-                    <Field/>
+                    <Field onChange={handleUserChange} value={username}/>
                 </TextField>
                 <TextField>
                     Senha:
-                    <Field/>
+                    <Field onChange={handlePasswordChange} value={password}/>
                 </TextField>
-                <Button>
+                <Button onPress={performLogin}>
                     Logar
                 </Button>
             </View>

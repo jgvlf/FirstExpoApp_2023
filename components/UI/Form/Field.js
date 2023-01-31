@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity, TextInput } from 'react-native';
 
-export function Field(){
+export function Field({onChange, value}){
     return(
         <View style={fieldStyles.main}>
-            <TextInput style={fieldStyles.text}/>
+            <TextInput style={fieldStyles.text} onChange={onChange} value={value}/>
         </View>
     );
 }

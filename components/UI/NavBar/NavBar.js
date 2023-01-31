@@ -1,10 +1,9 @@
 import { IsLoged } from "./isLoged";
 import { NoLoged } from "./noLoged";
 
-export function NavBar({isLogin}){
-    isLogin = false
+export function NavBar({isLoged, setIsLoged}){
     return(
-        isLogin ? <IsLoged/> :<NoLoged/>
+        isLoged ? <IsLoged setIsLoged={setIsLoged}/> :<NoLoged/>
     );
     
 }

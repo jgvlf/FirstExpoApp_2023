@@ -1,7 +1,7 @@
 import { LinearGradient } from 'expo-linear-gradient';
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 
-export function Button({children}){
+export function Button({children, onPress}){
     return(
         <View style={buttonStyles.main_space}>
             <View style={buttonStyles.main}>
@@ -11,7 +11,7 @@ export function Button({children}){
                     end={{x:1, y:1}}
                     style={{borderRadius: 5}}
                 >
-                <TouchableOpacity style={buttonStyles.main_button}>
+                <TouchableOpacity style={buttonStyles.main_button} onPress={onPress}>
                     <Text style={buttonStyles.text}>
                         {children}
                     </Text>
