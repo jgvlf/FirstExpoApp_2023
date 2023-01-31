@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 export function TextField({children}){
     return(
         <View style={textFieldStyles.main}>
-            <Text>
+            <Text style={textFieldStyles.text}>
                 {children}
             </Text>
         </View>
@@ -18,5 +18,11 @@ const textFieldStyles = StyleSheet.create({
         borderRadius: 20,
         padding: 10,
         
+    },
+    text:{
+        marginTop: 10,
+        fontFamily: 'Arial',
+        fontSize: 12,
+        fontWeight: '700',
     },
 });

@@ -10,7 +10,7 @@ export function IsLoged(){
                 </TouchableOpacity>
             </View>
             <View style={isLogedStyles.div_text}>
-                <Text>Home Page</Text>
+                <Text style={isLogedStyles.text}>Home Page</Text>
             </View>
         </View>
     );
@@ -35,5 +35,10 @@ const isLogedStyles = StyleSheet.create({
         flex: 2,
         justifyContent: 'flex-end',
         paddingRight: 20,
+    },
+    text:{
+        fontFamily: 'Arial',
+        fontSize: 20,
+        fontWeight: 'bold',
     },
 })

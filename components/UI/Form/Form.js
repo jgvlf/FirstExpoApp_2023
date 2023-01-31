@@ -1,11 +1,13 @@
 import { View, StyleSheet } from "react-native";
 import { TextField } from "./TextField";
+import { Field } from "./Field";
 
 export function Form(){
     return(
         <View style={formStyle.main}>
             <TextField>
-                Olá, Teste.sdsajdbsadsdsubdsaudbsuadvsaudvsyhdvsyadsaydvsaydvsaydsvaaasdasd
+                Usuário:
+                <Field/>
             </TextField>
         </View>
     );
