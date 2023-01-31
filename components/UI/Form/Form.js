@@ -33,11 +33,11 @@ export function Form({setIsLoged}){
             <View style={formStyle.main_field}>
                 <TextField>
                     Usuário:
-                    <Field onChange={handleUserChange} value={username}/>
+                    <Field onChange={handleUserChange} value={username} isPassword={false}/>
                 </TextField>
                 <TextField>
                     Senha:
-                    <Field onChange={handlePasswordChange} value={password}/>
+                    <Field onChange={handlePasswordChange} value={password} isPassword={true}/>
                 </TextField>
                 <Button onPress={performLogin}>
                     Logar

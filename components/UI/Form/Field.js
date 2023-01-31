@@ -1,10 +1,10 @@
 import { StyleSheet, View, TextInput } from 'react-native';
 
-export function Field({onChange, value}){
+export function Field({onChange, value, isPassword}){
     return(
         <View style={fieldStyles.main}>
-            <TextInput style={fieldStyles.text} onChange={onChange} value={value}/>
-        </View>
+            <TextInput style={fieldStyles.text} onChange={onChange} value={value} secureTextEntry={isPassword}/>
+        </View> 
     );
 }
 
