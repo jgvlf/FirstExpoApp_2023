@@ -1,19 +1,20 @@
 import { StyleSheet, View, TextInput } from 'react-native';
 import React from 'react';
 
-const FieldFowardRef = React.forwardRef((onChange, value, isPassword, onKeyPress, returnKeyType, onSubmitEditing, blurOnSubmit, props)=>{
-
+export const FieldFowardRef = React.forwardRef(({onChange, value, isPassword, onKeyPress, returnKeyType, onSubmitEditing, blurOnSubmit}, ref)=>{
+    return(
         <View style={fieldStyles.main}>
             <TextInput style={fieldStyles.text} onChange={onChange}
-                value={value} secureTextEntry={isPassword}
+                value={value}
+                secureTextEntry={isPassword}
                 onKeyPress={onKeyPress}
-                ref={props.ref}
                 returnKeyType={returnKeyType}
                 onSubmitEditing={onSubmitEditing}
+                ref={ref}
                 blurOnSubmit={blurOnSubmit}
-
             />
         </View> 
+    );
     }
 )
 const fieldStyles = StyleSheet.create({

@@ -2,13 +2,18 @@ import { View, StyleSheet } from "react-native";
 import { TextField } from "./TextField";
 import { Field } from "./Field";
 import { Button } from "./Button";
-import { TextInput } from "react-native";
-import { useRef, useState } from "react";
+import { FieldFowardRef } from "./FieldFowardRef";
+import React, { useEffect, useRef, useState } from "react";
 
 export function Form({setIsLoged}){
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
-    const passwordFieldRef = useRef(null);
+    const passwordRef = useRef();
+
+    // useEffect(()=>{
+    //     const passwordInput = passwordRef.current;
+    //     console.log(passwordInput)
+    // },[])
 
     function handleUserChange(event){
         setUsername(event.target.value);
@@ -37,30 +42,32 @@ export function Form({setIsLoged}){
         }
     }
 
-    function selectTheNextInput(event){
-        if(event.keyCode === 13){
-
-        }
-    }
     return(
         <View style={formStyle.main}>
             <View style={formStyle.main_field}>
                 <TextField>
                     Usuário:
-                    <Field onChange={handleUserChange} value={username}
-                     isPassword={false} onKeyPress={selectTheNextInput}
-                     returnKeyType="next"
-                     onSubmitEditing={()=>{
-                        passwordFieldRef.current.focus();
-                     }}
-                     blurOnSubmit={false}
-                     />
+                    <Field
+                        id="user"
+                        onChange={handleUserChange} 
+                        value={username}
+                        isPassword={false}
+                        returnKeyType="next"
+                        onSubmitEditing={()=>{
+                            passwordRef.current.focus();
+                        }}
+                        blurOnSubmit={false}
+                    />
                 </TextField>
                 <TextField>
                     Senha:
-                    <Field onChange={handlePasswordChange} value={password} 
-                    isPassword={true} onKeyPress={performLoginWithKeyboard}
-                    ref={passwordFieldRef}
+                    <FieldFowardRef
+                        id="password"
+                        onChange={handlePasswordChange}
+                        value={password}
+                        isPassword={true}
+                        onKeyPress={performLoginWithKeyboard}
+                        ref={passwordRef}
                     />
                 </TextField>
                 <Button onPress={performLogin}>
@@ -82,7 +89,7 @@ const formStyle = StyleSheet.create({
     main_field:{
         width: "100%",
         height: 200,
-        backgroundColor: "#E8E8E8",
+        backgroundColor: "#C8C8C8",
         borderRadius: 20,
         padding: 10,
         

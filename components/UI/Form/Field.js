@@ -1,16 +1,17 @@
 import { StyleSheet, View, TextInput } from 'react-native';
 
-export function Field({onChange, value, isPassword, onKeyPress, returnKeyType, onSubmitEditing, blurOnSubmit}, props){
+export function Field({onChange, value, isPassword, onKeyPress, returnKeyType, onSubmitEditing, blurOnSubmit, id, ref}){
     return(
         <View style={fieldStyles.main}>
             <TextInput style={fieldStyles.text} onChange={onChange}
-                value={value} secureTextEntry={isPassword}
+                value={value}
+                secureTextEntry={isPassword}
                 onKeyPress={onKeyPress}
-                ref={props.ref}
                 returnKeyType={returnKeyType}
                 onSubmitEditing={onSubmitEditing}
                 blurOnSubmit={blurOnSubmit}
-
+                id={id}
+                ref={ref}
             />
         </View> 
     );

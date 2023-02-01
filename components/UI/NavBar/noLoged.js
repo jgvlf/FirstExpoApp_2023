@@ -12,7 +12,7 @@ export function NoLoged(){
 
 const noLogedStyles = StyleSheet.create({
     main:{
-        backgroundColor: "#E8E8E8",
+        backgroundColor: "#C8C8C8",
         width: "100%",
         height: "50px",
         display: "flex",
