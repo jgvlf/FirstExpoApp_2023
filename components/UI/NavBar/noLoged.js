@@ -4,7 +4,7 @@ export function NoLoged(){
     return(
         <View style={noLogedStyles.main}>
             <View style={noLogedStyles.div_text}>
-                <Text>Login</Text>
+                <Text style={noLogedStyles.text}>Login</Text>
             </View>
         </View>
     );
@@ -12,7 +12,7 @@ export function NoLoged(){
 
 const noLogedStyles = StyleSheet.create({
     main:{
-        backgroundColor: "#E8E8E8",
+        backgroundColor: "#C8C8C8",
         width: "100%",
         height: "50px",
         display: "flex",
@@ -24,5 +24,10 @@ const noLogedStyles = StyleSheet.create({
         flexDirection: "row",
         alignItems: "center",
         justifyContent: "center",
+    },
+    text:{
+        fontFamily: 'Arial',
+        fontSize: 20,
+        fontWeight: 'bold',
     },
 })

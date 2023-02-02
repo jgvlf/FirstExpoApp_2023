@@ -1,16 +1,18 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 
-export function IsLoged(){
+export function IsLoged({setIsLoged}){
     var LeftArrowGradientIcon = require("../../../assets/left_arrow_gradient.png");
     return(
         <View style={isLogedStyles.main}>
             <View>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={()=>{
+                    setIsLoged(false);
+                }}>
                     <Image source={LeftArrowGradientIcon} style={isLogedStyles.image}/>
                 </TouchableOpacity>
             </View>
             <View style={isLogedStyles.div_text}>
-                <Text>Home Page</Text>
+                <Text style={isLogedStyles.text}>Home Page</Text>
             </View>
         </View>
     );
@@ -18,7 +20,7 @@ export function IsLoged(){
 
 const isLogedStyles = StyleSheet.create({
     main:{
-        backgroundColor: "#E8E8E8",
+        backgroundColor: "#C8C8C8",
         width: "100%",
         height: "50px",
         display: "flex",
@@ -35,5 +37,10 @@ const isLogedStyles = StyleSheet.create({
         flex: 2,
         justifyContent: 'flex-end',
         paddingRight: 20,
+    },
+    text:{
+        fontFamily: 'Arial',
+        fontSize: 20,
+        fontWeight: 'bold',
     },
 })
