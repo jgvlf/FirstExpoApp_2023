@@ -77,7 +77,7 @@
   <ol>
     <li>
       <a href="#built-with">Built With</a>
-      <ol>
+      <ol type='1'>
         <li><a href="#core">Core</a></li>
         <li><a href="#programing-language">Programing Language</a></li>
         <li><a href="#framework">Framework</a></li>
