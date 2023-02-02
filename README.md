@@ -1,3 +1,23 @@
+<!-- STYLE -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="github-markdown.css">
+
+<style>
+  ol {
+    counter-reset: item;
+  }
+
+  li {
+    display: block;
+  }
+
+  li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+  }
+</style>
+
+
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 <!--
@@ -57,7 +77,7 @@
   <ol>
     <li>
       <a href="#built-with">Built With</a>
-      <ol>
+      <ol type='1'>
         <li><a href="#core">Core</a></li>
         <li><a href="#programing-language">Programing Language</a></li>
         <li><a href="#framework">Framework</a></li>
@@ -108,23 +128,6 @@ Project Link: [https://github.com/joaogabrielvlf/FirstExpoApp_2023](https://gith
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- STYLE -->
-<style>
-  ol {
-    counter-reset: item
-  }
-
-  li {
-    display: block
-  }
-
-  li:before {
-    content: counters(item, ".") " ";
-    counter-increment: item
-  }
-
-</style>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
