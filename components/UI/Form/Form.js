@@ -3,7 +3,7 @@ import { TextField } from "./TextField";
 import { Field } from "./Field";
 import { Button } from "./Button";
 import { FieldFowardRef } from "./FieldFowardRef";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 
 export function Form({setIsLoged}){
     const [username, setUsername] = useState("");
