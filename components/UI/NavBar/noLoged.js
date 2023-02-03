@@ -26,7 +26,6 @@ const noLogedStyles = StyleSheet.create({
         justifyContent: "center",
     },
     text:{
-        fontFamily: 'Arial',
         fontSize: 20,
         fontWeight: 'bold',
     },

@@ -11,7 +11,6 @@ export function TextField({children}){
 const textFieldStyles = StyleSheet.create({
     text:{
         marginTop: 10,
-        fontFamily: 'Arial',
         fontSize: 12,
         fontWeight: '700',
     },

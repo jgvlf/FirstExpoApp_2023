@@ -47,7 +47,6 @@ const buttonStyles = StyleSheet.create({
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        fontFamily: 'Arial',
         fontSize: 12,
         fontWeight: '700',
     },

@@ -27,7 +27,6 @@ const fieldStyles = StyleSheet.create({
     },
     text:{
         height: 20,
-        fontFamily: 'Arial',
         fontSize: 12,
         fontWeight: '700',
     },

@@ -39,7 +39,6 @@ const isLogedStyles = StyleSheet.create({
         paddingRight: 20,
     },
     text:{
-        fontFamily: 'Arial',
         fontSize: 20,
         fontWeight: 'bold',
     },
