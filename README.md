@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/joaogabrielvlf/Bhaskara-s_Formula">
+  <a href="https://github.com/jgvlf/Bhaskara-s_Formula">
     <img src="images/Cellphone_001.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -41,11 +41,11 @@
     <br />
     <br />
     <br />
-    <a href="https://github.com/joaogabrielvlf/FirstExpoApp_2023">View Demo</a>
+    <a href="https://github.com/jgvlf/FirstExpoApp_2023">View Demo</a>
     ·
-    <a href="https://github.com/joaogabrielvlf/FirstExpoApp_2023/issues">Report Bug</a>
+    <a href="https://github.com/jgvlf/FirstExpoApp_2023/issues">Report Bug</a>
     ·
-    <a href="https://github.com/joaogabrielvlf/FirstExpoApp_2023/issues">Request Feature</a>
+    <a href="https://github.com/jgvlf/FirstExpoApp_2023/issues">Request Feature</a>
   </p>
 </div>
 
@@ -104,25 +104,25 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 João Gabriel Venceslau Lacerda Fernandes - joaogabrielvlf@gmail.com
 
-Project Link: [https://github.com/joaogabrielvlf/FirstExpoApp_2023](https://github.com/joaogabrielvlf/FirstExpoApp_2023)
+Project Link: [https://github.com/jgvlf/FirstExpoApp_2023](https://github.com/jgvlf/FirstExpoApp_2023)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/joaogabrielvlf/FirstExpoApp_2023?color=%23FF0000&style=for-the-badge
-[contributors-url]: https://github.com/joaogabrielvlf/FirstExpoApp_2023/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/joaogabrielvlf/FirstExpoApp_2023?color=%23FF7000&style=for-the-badge
-[forks-url]: https://github.com/joaogabrielvlf/FirstExpoApp_2023/network/members
-[stars-shield]: https://img.shields.io/github/stars/joaogabrielvlf/FirstExpoApp_2023?color=%23FFD000&style=for-the-badge
-[stars-url]: https://github.com/joaogabrielvlf/FirstExpoApp_2023/stargazers
-[issues-shield]: https://img.shields.io/github/issues/joaogabrielvlf/FirstExpoApp_2023?color=%23FF0000&style=for-the-badge
-[issues-url]: https://github.com/joaogabrielvlf/FirstExpoApp_2023/issues
-[license-shield]: https://img.shields.io/github/license/joaogabrielvlf/FirstExpoApp_2023?color=%23FF5000&style=for-the-badge
-[license-url]: https://github.com/joaogabrielvlf/FirstExpoApp_2023/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/jgvlf/FirstExpoApp_2023?color=%23FF0000&style=for-the-badge
+[contributors-url]: https://github.com/jgvlf/FirstExpoApp_2023/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jgvlf/FirstExpoApp_2023?color=%23FF7000&style=for-the-badge
+[forks-url]: https://github.com/jgvlf/FirstExpoApp_2023/network/members
+[stars-shield]: https://img.shields.io/github/stars/jgvlf/FirstExpoApp_2023?color=%23FFD000&style=for-the-badge
+[stars-url]: https://github.com/jgvlf/FirstExpoApp_2023/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jgvlf/FirstExpoApp_2023?color=%23FF0000&style=for-the-badge
+[issues-url]: https://github.com/jgvlf/FirstExpoApp_2023/issues
+[license-shield]: https://img.shields.io/github/license/jgvlf/FirstExpoApp_2023?color=%23FF5000&style=for-the-badge
+[license-url]: https://github.com/jgvlf/FirstExpoApp_2023/blob/deploy/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-[linkedin-url]: https://www.linkedin.com/in/joão-gabriel-venceslau-lacerda-fernandes/
+[linkedin-url]: https://www.linkedin.com/in/jgvlf/
 <!-- [product-screenshot]: images/screenshot.png -->
 
 [JS-shield]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
